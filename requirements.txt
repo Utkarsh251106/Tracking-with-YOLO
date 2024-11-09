@@ -1,6 +1,6 @@
-python= 3.11.9
-torch=2.4.1
-opencv-python=4.10.0
-numpy=1.26.4
-ultralytics=8.2.85
+python==3.11.9
+torch==2.4.1
+opencv-python==4.10.0
+numpy==1.26.4
+ultralytics==8.2.85
 deep_sort>=1.0.0
