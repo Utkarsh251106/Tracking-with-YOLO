@@ -18,6 +18,7 @@ pip install -r requirements.txt
 ```
 ### Step 4: To run the code:
 ```bash
-# Finally run the following command
-python Code.ipynb
+# Start the Jupyter Notebook environment using the command
+jupyter notebook
 ```
+### Step 5: Run your Code.ipynb file
