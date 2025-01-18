@@ -1,9 +1,23 @@
-Overview:
+## Description
+Tracking with YOLO is an object detection and tracking project designed to track and count the number of children and adults in a video. The dataset was annotated using Roboflow. For the actual execution of the program, the OpenCV library is used to handle camera and image-related tasks, NumPy is used for various mathematical calculations, and Ultralytics' YOLOv8 is used for object detection. Finally, the Deep SORT algorithm is used for tracking and occlusion prevention purposes. 
 
-This project leverages YOLOv8, along with DeepSort for multi-object tracking to identify and track children and adults within video footage. It utilizes OpenCV (cv2) for image processing, NumPy for numerical operations, and Jupyter Notebook for development and experimentation. Roboflow is employed for data annotation and management.
+# How to run it?
+### Step 1: Clone the Repository:
+```bash
+git clone https://github.com/Utkarsh251106/Tracking-with-YOLO
+```
+### Step 2: Create a conda environment:
+```bash
+conda create -n venv python=3.12.7 -y
+conda activate venv
+```
 
-Dependencies:
-
-## YOLOv8, PyTorch, OpenCV (cv2), NumPy, Jupyter Notebook, Roboflow
-
-## [![Python Badge](https://img.shields.io/badge/python-3.11.9-blue)](https://www.python.org/)  [![PyTorch Badge](https://img.shields.io/badge/PyTorch-2.4.1-orange)](https://pytorch.org/)  [![OpenCV-Python Badge](https://img.shields.io/badge/OpenCV-4.10.0-green)](https://opencv.org/)  [![NumPy Badge](https://img.shields.io/badge/NumPy-1.26.4-yellow)](https://numpy.org/)  [![Ultralytics Badge](https://img.shields.io/badge/Ultralytics-8.2.85-purple)](https://ultralytics.com/)
+### Step 3: Install the requirements:
+```bash
+pip install -r requirements.txt
+```
+### Step 4: To run the code:
+```bash
+# Finally run the following command
+python Code.ipynb
+```
