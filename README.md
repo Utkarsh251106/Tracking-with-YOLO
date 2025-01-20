@@ -8,7 +8,7 @@ git clone https://github.com/Utkarsh251106/Tracking-with-YOLO
 ```
 ### Step 2: Create a conda environment:
 ```bash
-conda create -n venv python=3.12.7 -y
+conda create -n venv python=3.11.9 -y
 conda activate venv
 ```
 
